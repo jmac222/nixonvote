@@ -8,7 +8,19 @@ window.oncontextmenu = (event) => {
 }
 
 
+// window.onload = function(event){
+//     for(i=0; i < 10; i++){
+//         var troll = document.getElementById("words")
+//         troll.innerHTML += "<p>VOTE NIXON</p><br>"
+//     }
+// }
 
+document.getElementById("mcgovernBtn").addEventListener("mouseover", function () {
+    for (i = 0; i < 10; i++) {
+        var troll = document.getElementById("words")
+        troll.innerHTML += "<p>VOTE NIXON</p><br>"
+    }
+})
 
 vote.mouseover = function (event) {
 
