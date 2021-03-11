@@ -1,0 +1,103 @@
+*, *::after, *::before {
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(images/Untitled.png), pointer;
+}
+
+html{
+    background-color: #eee;
+    background-image: url(images/nixon.png);
+}
+
+
+body{
+    background-color: burlywood;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    border-radius: 0.5em;
+}
+
+
+
+
+
+
+
+
+.intro{
+    margin: auto auto auto auto;
+    border-radius: 1em;
+    background-color: cadetblue;
+
+    width: auto;
+    height: 80px;
+
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.txtVote{
+    padding-top: 20px;
+}
+
+.vt1{
+    margin: auto auto auto auto;
+    border-radius: 1em;
+    background-color: blue;
+
+    width: 500px;
+    height: 150px;
+
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nixon{
+    margin: auto auto auto auto;
+    border-radius: 1em;
+    color: #fff;
+    width: 400px;
+    height: 90px;
+    font-size: 30px;
+    background-color: blue;
+}
+
+.vt2{
+    margin: auto auto auto auto;
+    border-radius: 1em;
+    background-color: rgb(192, 18, 18);
+
+    width: 500px;
+    height: 150px;
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.mcgovern{
+    border-radius: 1em;
+    color: #fff;
+    position: absolute;
+    background-color: rgb(192, 18, 18);
+
+    
+    width: 400px;
+    height: 90px;
+    font-size: 30px;
+}
+
+
+.vote{
+    padding-top: 30px;
+}
+
+
+.ty{
+    text-align: center;
+    font-size: 80px;
+    font-family: sans-serif;
+}
